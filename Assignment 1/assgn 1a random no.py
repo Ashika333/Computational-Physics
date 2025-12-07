@@ -37,11 +37,11 @@ def random_gen(c,x0=0.1,k=5,num_iter=1000):
    
     return( Plot(L2, L3 , title=(c,k), xlabel='x_i', ylabel='X_(i+k)',file_name='sample_plot.png'))
      
-#print(random_gen(2.98,x0=0.1,k=6,num_iter=1000))#correlated
-#print(random_gen(3.9135,x0=0.1,k=7,num_iter=1000))#little uncorrelated
-#print(random_gen(3.28,x0=0.1,k=6,num_iter=1000))#correlated
-#print(random_gen(3.68,x0=0.1,k=9,num_iter=1000))# correlated
-#print(random_gen(3.86,x0=0.1,k=10,num_iter=1000))# uncorrelated
+print(random_gen(2.98,x0=0.1,k=6,num_iter=1000))#correlated
+print(random_gen(3.9135,x0=0.1,k=7,num_iter=1000))#little uncorrelated
+print(random_gen(3.28,x0=0.1,k=6,num_iter=1000))#correlated
+print(random_gen(3.68,x0=0.1,k=9,num_iter=1000))# correlated
+print(random_gen(3.86,x0=0.1,k=10,num_iter=1000))# uncorrelated
 
 
 ## LCG Random Generator ##
